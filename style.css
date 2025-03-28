@@ -59,6 +59,7 @@ nav a {
   border-radius: 4px;
   font-weight: 400;
   transition: background-color 0.3s e;
+  cursor: pointer;
   /* Header end; */
 }
 
@@ -93,7 +94,7 @@ nav a {
   height: 250px;
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .amenities-section {
@@ -124,7 +125,7 @@ nav a {
   padding: 2rem;
   border-radius: 10px;
   width: 250px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 .footer-section {
@@ -252,3 +253,107 @@ nav a {
   background-color: #636363;
 }
 /* Booking form end */
+
+/* Contact page */
+.contact-section-container {
+  background-color: #f0f4f8;
+}
+.contact-section-container img {
+  display: block;
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.9;
+}
+.contact-section-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  flex-grow: 1;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-top: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.send-btn {
+  margin-top: 1.5rem;
+  border: none;
+  width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-box {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.09);
+}
+
+.info-box h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.info-box p {
+  font-size: 0.9rem;
+}
+
+.info-box tel,
+.info-box email,
+.info-box address {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal;
+  color: #555;
+}
+
+.map-section-container h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.map-image-container img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Contact page end */
