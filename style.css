@@ -58,7 +58,6 @@ nav a {
   padding: 0.6rem 1.2rem;
   border-radius: 4px;
   font-weight: 400;
-  transition: background-color 0.3s e;
   cursor: pointer;
   /* Header end; */
 }
