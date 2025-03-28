@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hailey's Hotel | Booking Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
@@ -19,15 +20,22 @@
     </header>
 
     <section class="booking-form-container">
+      <h2>Book Rooms</h2>
       <form class="booking-form-items">
-        <label>Check-in Date</label><input type="date" />
-        <label>Check-out Date</label><input type="date" />
+        <label>Check-in Date</label>
+        <input type="date" />
+        <label>Check-out Date</label>
+        <input type="date" />
         <label>Adults</label>
-        <input type="text" name="adults" id="adults" />
+        <input type="text" placeholder="Adults" />
         <label>Children</label>
-        <input type="text" name="children" id="children" />
-        <label>Full Name</label><input type="text" /> <label>E-Mail</label
-        ><input type="email" /> <label>Phone Number</label><input type="tel" />
+        <input type="text" placeholder="Children" />
+        <label>Full Name</label>
+        <input type="text" placeholder="Full Name" />
+        <label>E-Mail</label>
+        <input type="email" placeholder="E-Mail" />
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Phone Number" />
       </form>
     </section>
 
@@ -35,18 +43,36 @@
       <h2>Available Rooms</h2>
       <div class="rooms-section-container">
         <div class="available-room-container">
-          <div class="room-image"></div>
+          <div class="room-image">
+            <img
+              class="room-image"
+              src="./Images/bedroom.jpg"
+              alt="Deluxe Bedroom"
+            />
+          </div>
           <div class="room-info">
             <h3>Deluxe</h3>
-            <p><strong>£99</strong> <span>per night</span></p>
+            <div class="room-info-price">
+              <p><strong>£99</strong></p>
+              <p><span>per night</span></p>
+            </div>
           </div>
-          <a href="#" class="btn-select">Select Room</a>
+          <a href="#" class="select-room-btn">Select Room</a>
         </div>
         <div class="available-room-container">
-          <div class="room-image"></div>
+          <div class="room-image">
+            <img
+              class="room-image"
+              src="./Images/bedroom2.jpg"
+              alt="Executive Suite"
+            />
+          </div>
           <div class="room-info">
             <h3>Executive Suite</h3>
-            <p><strong>£149</strong> <span>per night</span></p>
+            <div class="room-info-price">
+              <p><strong>£149</strong></p>
+              <p><span>per night</span></p>
+            </div>
           </div>
           <a href="#" class="select-room-btn">Select Room</a>
         </div>
