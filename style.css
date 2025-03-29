@@ -1,4 +1,3 @@
-/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +8,6 @@ body {
   font-family: "Segoe UI", Tahoma, sans-serif;
   color: #1a1a1a;
 }
-/* Global styles end */
-
-/* Header */
 a {
   text-decoration: none;
   color: inherit;
@@ -59,10 +55,7 @@ nav a {
   border-radius: 4px;
   font-weight: 400;
   cursor: pointer;
-  /* Header end; */
 }
-
-/* Landing page */
 
 .book-btn:hover {
   background-color: #636363;
@@ -147,9 +140,6 @@ nav a {
   background-color: #fff;
   color: #003087;
 }
-/* Landing page end */
-
-/* Booking form start */
 .booking-form-container {
   text-align: left;
   padding: 2rem;
@@ -265,9 +255,6 @@ nav a {
 .select-room-btn:hover {
   background-color: #636363;
 }
-/* Booking form end */
-
-/* Contact page */
 .contact-section-container {
   background-color: #f0f4f8;
 }
@@ -367,4 +354,3 @@ nav a {
   max-height: 400px;
   object-fit: cover;
 }
-/* Contact page end */
