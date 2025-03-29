@@ -49,3 +49,9 @@ All code was written manually for this project. However:
 
 - Placeholder images used from Figma wireframes or public domain assets
 - Design layout inspired by popular hotel UX patterns
+
+- User Story 
+
+1. Users can view hotel amenities and pictures.
+2. Users can select check-in/check-out dates, number of adults/children, and provide contact details.
+3. Guest can contact the hotel from the contact page via a contact form, phone, email or in person.
