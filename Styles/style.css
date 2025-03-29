@@ -184,6 +184,20 @@ nav a {
   border-radius: 4px;
 }
 
+.booking-form-items-btn-wide {
+  grid-column: span 2; 
+}
+
+.booking-form-items-btn {
+  margin-top: 1rem;
+  width: 100%;
+  background-color: #003087;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem;
+}
+
 .rooms-section {
   max-width: 1000px;
   margin: 2rem auto;

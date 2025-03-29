@@ -55,3 +55,12 @@ All code was written manually for this project. However:
 1. Users can view hotel amenities and pictures.
 2. Users can select check-in/check-out dates, number of adults/children, and provide contact details.
 3. Guest can contact the hotel from the contact page via a contact form, phone, email or in person.
+
+
+# Testing Process
+
+- Navigation links (Home, Booking, Contact), after clicking the link should navigate to the correct page.
+- Form inputs, allows input and button responds.
+- Submit, select rooms buttons, will provide feedback once connected to a script or page.
+
+
