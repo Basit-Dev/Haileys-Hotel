@@ -61,6 +61,33 @@ All code was written manually for this project. However:
 
 - Navigation links (Home, Booking, Contact), after clicking the link should navigate to the correct page.
 - Form inputs, allows input and button responds.
-- Submit, select rooms buttons, will provide feedback once connected to a script or page.
+- Select rooms buttons, will provide feedback once connected to a script or page.
+- Room form submit button checks for validations and that the field is not empty.
+
+# Responsiveness
+
+- Desktop, at full width layout fills screen, spacing looks appropriate
+- Tablet, Layout adjusts, room cards and forms stack when needed in Chrome Dev Mode.
+- Mobile, Navbar, content flex grows, text readable, buttons all uniform in view, images not squashed.
+
+# Broken Links 
+
+- All links load successfully when clicked, no 404 errors.
+- No errors in dev console.
+- External link opens a new page.
+
+
+# Manual Testing Results
+
+1. Navigation Links - PASS
+2. Booking Form - PASS
+3. Room Selection Buttons - PASS
+4. Contact Form Fields - PASS
+5. Layout Responsiveness- PASS
+6. Broken Links Check - PASS
+7. CSS & Images - PASS   
+
+
+
 
 
