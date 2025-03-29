@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hailey's Hotel | Booking Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
   </head>
+
   <body>
+
+    <!-- Navigation header --> 
     <header class="header">
       <a href="landing.html">
         <div class="main-logo">Hailey's Hotel</div>
@@ -20,30 +24,36 @@
       </nav>
       <a href="#" class="book-btn">Book Now</a>
     </header>
+    <!-- Navigation header end -->
 
+    <!-- Booking form -->
     <section class="booking-form-container">
       <h2>Book Rooms</h2>
       <form class="booking-form-items">
         <label>Check-in Date</label>
-        <input type="date">
+        <input type="date" name="check-in-date" id="check-in-date" required>
         <label>Check-out Date</label>
-        <input type="date">
+        <input type="date" name="check-out-date" id="check-out-date" required>
         <label>Adults</label>
-        <input type="text" placeholder="Adults">
+        <input type="text" name="adults" id="adults" placeholder="Adults" required>
         <label>Children</label>
-        <input type="text" placeholder="Children">
+        <input type="text" name="children" id="children" placeholder="Children" required>
         <label>Full Name</label>
-        <input type="text" placeholder="Full Name">
+        <input type="text" name="full-name" id="full-name" placeholder="Full Name" required>
         <label>E-Mail</label>
-        <input type="email" placeholder="E-Mail">
+        <input type="email" name="email" id="email" placeholder="E-Mail" required>
         <label>Phone Number</label>
-        <input type="tel" placeholder="Phone Number">
+        <input type="tel" name="tel" id="tel" placeholder="Phone Number" required>
       </form>
     </section>
+    <!-- Booking form end -->
 
+    <!-- Rooms section -->
     <section class="rooms-section">
       <h2>Available Rooms</h2>
       <div class="rooms-section-container">
+
+        <!-- Room one -->
         <div class="available-room-container">
           <div class="room-image">
             <img
@@ -61,6 +71,9 @@
           </div>
           <a href="#" class="select-room-btn">Select Room</a>
         </div>
+        <!-- Room one end -->
+
+        <!-- Room two -->
         <div class="available-room-container">
           <div class="room-image">
             <img
@@ -78,14 +91,19 @@
           </div>
           <a href="#" class="select-room-btn">Select Room</a>
         </div>
+        <!-- Room two end -->
+
       </div>
     </section>
+    <!-- Room section end -->
 
+    <!-- Footer section -->
     <section class="footer-section">
       <h2>Need a Chat?</h2>
       <p>Our staff are available 24/7 to amswer any questions you may have</p>
       <a href="#" class="book-btn footer-btn">Call Now</a>
     </section>
+    <!-- Footer section end -->
 
   </body>
 </html>
