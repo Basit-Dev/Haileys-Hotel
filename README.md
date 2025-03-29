@@ -68,7 +68,7 @@ All code was written manually for this project. However:
 
 - Desktop, at full width layout fills screen, spacing looks appropriate
 - Tablet, Layout adjusts, room cards and forms stack when needed in Chrome Dev Mode.
-- Mobile, Navbar, content flex grows, text readable, buttons all uniform in view, images not squashed.
+- Mobile, Navbar, content flex grows, text readable, buttons all uniform in view, images not squashed. A hamburger menu displays when view is less than 768px wide.
 
 # Broken Links 
 
