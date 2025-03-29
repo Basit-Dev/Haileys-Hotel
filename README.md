@@ -88,6 +88,18 @@ All code was written manually for this project. However:
 7. CSS & Images - PASS   
 
 
+# Live Manual Testing Results
+
+Live site tested at:
+🔗 https://basit-dev.github.io/Haileys-Hotel/landing.html
+
+1. Navigation - Working
+2. Booking Form - Working
+3. Contact Form - Working
+4. CSS & Image Display - Working
+5. Styling & images loaded
+6. Mobile Responsiveness - All viewports working
+7. No Broken Links - All links and assets working
 
 
 
