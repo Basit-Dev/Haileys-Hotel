@@ -79,6 +79,10 @@ All code was written manually for this project. However:
 
 # Manual Testing Results
 
+The full manual testing document can be found here:
+
+[Manual Testing Document](documentation/Manual%20Testing%20Results.xlsx)
+
 1. Navigation Links - PASS
 2. Booking Form - PASS
 3. Room Selection Buttons - PASS
