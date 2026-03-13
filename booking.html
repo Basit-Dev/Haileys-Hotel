@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  <!-- Head Section -->
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hailey's Hotel | Booking Form</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
+
+    <!-- Header Section -->
     <header class="header">
       <a href="index.html">
         <div class="main-logo">Hailey's Hotel</div>
       </a>
+      <!-- Hamburger Menu -->
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
         <label for="menu-toggle" class="hamburger">
           <span></span>
           <span></span>
           <span></span>
         </label>
+
+      <!-- Nav Links and Booking Button -->
       <nav>
         <ul>
           <li><a href="index.html" target="_self">Home</a></li>
@@ -26,8 +34,12 @@
       </nav>
       <a href="#" class="book-btn">Book Now</a>
     </header>
+
+    <!-- Booking Form Section -->
     <section class="booking-form-container">
       <h2>Book Rooms</h2>
+
+      <!-- Booking Form -->
       <form class="booking-form-items">
         <label>Check-in Date</label>
         <input type="date" name="check-in-date" id="check-in-date" required>
@@ -46,13 +58,20 @@
         <div class="booking-form-items-btn-wide">
           <button class="booking-form-items-btn" type="submit">Submit</button>
         </div>
- 
       </form>
+      
     </section>
-    <section class="rooms-section">
+
+    <!-- Available Rooms Section -->
+    <main class="rooms-section">
       <h2>Available Rooms</h2>
+
+      <!-- Room Cards -->
       <div class="rooms-section-container">
+
+        <!-- Deluxe Room -->
         <div class="available-room-container">
+          <!-- Room Image -->
           <div class="room-image">
             <img
               class="room-image"
@@ -60,6 +79,7 @@
               alt="Deluxe Bedroom"
             >
           </div>
+          <!-- Room Info -->
           <div class="room-info">
             <h3>Deluxe</h3>
             <div class="room-info-price">
@@ -67,9 +87,13 @@
               <p><span>per night</span></p>
             </div>
           </div>
+          <!-- Select Room Button -->
           <a href="#" class="select-room-btn">Select Room</a>
         </div>
+
+        <!-- Executive Suite -->
         <div class="available-room-container">
+          <!-- Room Image -->
           <div class="room-image">
             <img
               class="room-image"
@@ -77,6 +101,7 @@
               alt="Executive Suite"
             >
           </div>
+          <!-- Room Info -->
           <div class="room-info">
             <h3>Executive Suite</h3>
             <div class="room-info-price">
@@ -84,14 +109,20 @@
               <p><span>per night</span></p>
             </div>
           </div>
+          <!-- Select Room Button -->
           <a href="#" class="select-room-btn">Select Room</a>
         </div>
+
       </div>
-    </section>
-    <section class="footer-section">
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
       <h2>Need a Chat?</h2>
       <p>Our staff are available 24/7 to amswer any questions you may have</p>
       <a href="#" class="book-btn footer-btn">Call Now</a>
-    </section>
+    </footer>
+
   </body>
+
 </html>
